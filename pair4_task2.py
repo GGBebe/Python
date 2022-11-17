@@ -35,5 +35,5 @@ for i in range(lessonCount):
 
 #print(f"{passedLessons} adet dersten geçtiniz. {failedLessons} adet dersten kaldınız.")
 print(f"{passedLessons_rev} ortalama notları ile {len(passedLessons_rev)} dersten geçtiniz. {failedLessons_rev} ortalama notları ile {len(failedLessons_rev)} dersten kaldınız.")
-print(f"Geçtiğiniz derslerin vize notları: {passedLessonsExams}, Geçtiğiniz derslerin final notları: {passedLessonsFinals}.\nKaldığınız derslerin vize notları: {failedLessonsExams}, kaldığınız derslerin final notları: {failedLessonsFinals}.")
+print(f"Geçtiğiniz derslerin vize notları: {passedLessonsExams}, Geçtiğiniz derslerin final notları: {passedLessonsFinals}.\nKaldığınız derslerin vize notları: {failedLessonsExams}, Kaldığınız derslerin final notları: {failedLessonsFinals}.")
 
