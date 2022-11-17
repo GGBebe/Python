@@ -1,10 +1,8 @@
-x = input("Vize Notunuzu 0-100 arasında Giriniz: ")
-vize = float(x)
+vize = float(input("Vize Notunuzu 0-100 arasında Giriniz: "))
 if vize > 100:
     print("100'den aşağı bir sayı giriniz")
 else:
-    y = input("Final Notunuzu 0-100 arasında Giriniz: ")
-    final = float(y)
+    final = float(input("Final Notunuzu 0-100 arasında Giriniz: "))
     if final > 100:
         print("100'den aşağı bir sayı giriniz")
     else:
