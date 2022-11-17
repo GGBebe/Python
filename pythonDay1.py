@@ -17,7 +17,7 @@ print(sonucMesaj)
 
 sayi1 = 10.7
 sayi2 = 20
-print(sayi1+sayi2+5)
+print(sayi1+sayi2)
 print(sonucMesaj)
 
 sayiSonuc = sayi1+sayi2
