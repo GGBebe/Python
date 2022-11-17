@@ -51,5 +51,3 @@ company = "Etiya"
 print(f"{name} {age} yaşında {company}'da çalışıyor.")
 
 print(sayi1+sayi2)
-
-
