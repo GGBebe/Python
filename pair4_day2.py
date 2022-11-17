@@ -1,10 +1,10 @@
-vize = float(input("Vize Notunuzu 0-100 arasında Giriniz: "))
+vize = float(input("Vize Notunuzu Giriniz: "))
 if vize > 100:
-    print("100'den aşağı bir sayı giriniz")
+    print("100'den aşağı bir sayı giriniz!")
 else:
-    final = float(input("Final Notunuzu 0-100 arasında Giriniz: "))
+    final = float(input("Final Notunuzu Giriniz: "))
     if final > 100:
-        print("100'den aşağı bir sayı giriniz")
+        print("100'den aşağı bir sayı giriniz!")
     else:
         average = (vize*(.4))+(final*(.6))
         print(f"Ders ortalamanız: {average}")
