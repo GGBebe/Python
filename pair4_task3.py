@@ -7,7 +7,7 @@ while True:
         print("Incorrect entry!")
     else:
         break
-file = open("employees.txt", "a")
+file = open("employees.txt", "a+")
 for employee in range(employeesCount):
     employeeName = input(f"Enter the {employee+1}. employee's name: ")
     employeeSurname = input(f"Enter the {employee+1}. employee's surname: ")
@@ -19,7 +19,6 @@ for employee in range(employeesCount):
         else:
             break
     file.writelines(f"{employeeName.upper()} {employeeSurname.upper()} - {employeeSalary}\n")
-file.close()
-file = open("employees.txt", "r")
+file.seek(0)
 print(file.read())
 file.close()
